@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <nav class="navtext">
+            <a href="index.html" >Google Search</a>
+            <a href="images.html" >Google Image Search</a>
+             
+        </nav>
+        
+        <div>
+            <div>
+                <img src= "img/google.PNG" alt ="" class="header-advanced">
+            </div>    
+        </div>
+        <div class="advanced-title">
+            <label for="">Advanced Search </label>
+        </div>
+        <div class="header-separator"></div>
+
+        <div class="bottom-page" >
+            <form action="https://www.google.com/search?" method="GET" >
+                <label class="advanced-label">Find pages with... </label>
+                <div class="blank-space"></div>
+                <label class="advanced-label">To do this in the search box. </label>
+
+                <div class="stancho">
+                    <label class="as-label" for="name">All these words:</label>
+                    <input class="as-input" name="as_q" type="text" value=""  style="width: 60%; height: auto;"> 
+                    <div class="as-right"> Type the important words: tri-colour rat terrier</div>
+                </div>
+                <div class="stancho">
+                    <label class="as-label" for="name">This exact word or phrase:</label> 
+                    <input  class="as-input"  name="as_epq" type="text" value="" style="width: 60%; height: auto;">
+                    <div class="as-right"> Put exact words in quotes: "rat terrier" </div> 
+                </div> 
+                <div class="stancho">
+                    <label class="as-label" for="name">Any of these words:</label> 
+                    <input  class="as-input"  name="as_oq" type="text" value="" style="width: 60%; height: auto;">
+                    <div class="as-right"> Type OR between all the words you want: miniature OR standard </div>
+                </div>
+                <div class="stancho"> 
+                    <label class="as-label" for="name">None of these words:</label> 
+                    <input  class="as-input"  name="as_eq" type="text" value="" style="width: 60%; height: auto;">
+                    <div class="as-right"> Put a minus sign just before words that you don't want: -rodent, -"Jack Russell" </div>
+                </div>
+                <div class="stancho">
+                    <div class="as-label" style="width: 19%;"></div> 
+                    <div class="as-input" style="width: 55%;">
+                        <input type="submit" name="" value="Google Advanced Search" class="as-button"> 
+                    </div>
+                    <div class="as-right" style="width: 26.5%;"></div>
+                </div>
+                
+                
+               
+
+            </form>
+        </div>
+    </body>
+</html>
